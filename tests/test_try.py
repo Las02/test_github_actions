@@ -6,8 +6,9 @@ from tests import _TEST_ROOT
 @pytest.mark.parametrize("a,b", [(1, 1), (1, 2), (1, 1)])
 @pytest.mark.parametrize("c", [2, 3, 4])
 def test_param_me(a, b, c):
-    print(c)
-    assert a == b
+    # hello world
+    # ok
+    assert a == a
 
 
 class TestDad:
