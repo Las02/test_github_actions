@@ -15,8 +15,5 @@ def test_param_me(a, b, c):
 class TestDad:
     def test_boy(self):
         print("hello" + _TEST_ROOT)
-        a = 2
-        b = 3
-        c = 2
-        d = [1, 2, 3, 4]
+
         assert 1 == 1
