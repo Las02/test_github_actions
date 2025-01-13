@@ -16,11 +16,4 @@ class TestDad:
     def test_boy(self):
         print("hello" + _TEST_ROOT)
 
-
-
-
-
-
-
-
         assert 1 == 1
