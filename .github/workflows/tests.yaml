@@ -30,4 +30,4 @@ jobs:
         pytest -v
     - name: format
       run: |
-        ruff format
+        ruff format .
