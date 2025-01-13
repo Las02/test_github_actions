@@ -1,10 +1,9 @@
-from torch import nn
-import torch
-from ml_ops_mnist import data
-
-from ml_ops_mnist import model
-import typer
 import seaborn as sns
+import torch
+import typer
+from torch import nn
+
+from ml_ops_mnist import data, model
 
 app = typer.Typer()
 
@@ -57,5 +56,6 @@ def evaluate(model_checkpoint: str = "./models/sick_model.pt"):
     print(f"test loss: {loss}, acc: {acc}")
 
 
+app = typer.Typer()
 if __name__ == "__main__":
     app()

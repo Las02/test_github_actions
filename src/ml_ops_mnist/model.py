@@ -1,8 +1,9 @@
-from torch import logit, nn
-import torch
-import os
 import glob
+import os
+
 import matplotlib.pyplot as plt
+import torch
+from torch import logit, nn
 
 # %load_ext autoreload
 # %autoreload 2
