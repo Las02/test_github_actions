@@ -8,6 +8,7 @@ from tests import _TEST_ROOT
 def test_param_me(a, b, c):
     # hello world
     # ok
+    # hello world
     assert a == a
 
 
