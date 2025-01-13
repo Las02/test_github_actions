@@ -32,5 +32,5 @@ jobs:
         python data/stats.py
     - name: run cml
       run: |
-          cat echo "1, 2" >> report.md
+          echo "1, 2" >> report.md
           cml comment create report.md
