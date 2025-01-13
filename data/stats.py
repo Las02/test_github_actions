@@ -1,0 +1,1 @@
+print("statistic 1")
