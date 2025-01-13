@@ -8,7 +8,7 @@ from tests import _TEST_ROOT
 def test_param_me(a, b, c):
     # hello world
     # ok
-    assert a == a
+    assert a == b
 
 
 class TestDad:
