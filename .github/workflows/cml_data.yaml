@@ -3,8 +3,9 @@ name: "Test on datachange"
 on:
   push:
     branches: [ master, main ]
-    # paths:
-    #   - 'data/*'
+  pull_request:
+    branches: [ master, main ]
+
 
 jobs:
   dataset_statistics:
